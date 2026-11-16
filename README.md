@@ -22,8 +22,8 @@ This repository contains the completed code for Web Dev III - Lab 4. It implemen
 - `POST /api/auth/login` - receive a one-hour JWT
 - `POST /api/notes` - create a note for the authenticated user
 - `GET /api/notes` - list the authenticated user's notes, or all notes for an admin
-- `PUT /api/notes/:id` - update an owned note
-- `DELETE /api/notes/:id` - delete an owned note
+- `PUT /api/notes/:id` - update an owned note, or any note as an admin
+- `DELETE /api/notes/:id` - delete an owned note, or any note as an admin
 
 The project keeps `cors` enabled for local browser/client access. Configure a user's `role` as `admin` in MongoDB when demonstrating the administrator view; public signup never accepts a role from the request.
 
