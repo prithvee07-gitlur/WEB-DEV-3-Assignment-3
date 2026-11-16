@@ -1,4 +1,4 @@
-# Lab 4: Secure Connect and Communication Platform
+# WEB DEVELOPMENT Assingment 4
 
 ## Overview
 This repository contains the completed code for Web Dev III - Lab 4. It implements a secure backend with authentication, a protected CRUD Notes API, and real-time chat via WebSockets without relying on pre-built auth boilerplates.
